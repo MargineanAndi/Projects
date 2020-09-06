@@ -1,10 +1,10 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Georgia;
   }
   
   
-  h1 {
-    color: blue;
+  h1,h2 {
+    color: red;
   }
   
   
@@ -16,4 +16,8 @@
   
   a {
     text-decoration: none;
+  }
+
+  body{
+    background-color: yellowgreen;
   }
