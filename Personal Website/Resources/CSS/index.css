@@ -88,7 +88,7 @@ strong {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200em ease-in-out;
-
+  margin-top: 3em; 
 }
 
 .btn:hover{
@@ -347,6 +347,73 @@ header{
 
 }
 
+.skills{
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.skill__name{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+  margin-bottom: 1em;
+  position: relative;
+  display: flex;
+  
+}
+
+.skill__bar{
+  height: 20px;
+  background-color: var(--clr-light);
+  border-radius: 8px;
+  box-shadow: var(--bs);
+}
+
+.skill__percent{
+  height: 20px;
+  background-color: var(--clr-accent);
+  border-radius: 8px;
+  width: 50%;
+  transition: 1s linear;
+  position: relative;
+}
+
+.skill__percent::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  font-size: 12px;
+  border-radius: 4px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+
+}
+
+.skill__percent::after{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--clr-accent);
+  top: -16px;
+  right: 0;
+  transform: translate(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+@media (min-width: 1000px) {
+  .skills {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
 
 .about-me{
   max-width: 1000px;
@@ -486,4 +553,6 @@ header{
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
 }
