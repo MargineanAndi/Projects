@@ -1,6 +1,6 @@
 # Project Name
 
-> Andi Marginean Full Stack Devlopment Porfolio
+> Andi Marginean Full Stack Development Porfolio
 
 ## Table of contents
 
