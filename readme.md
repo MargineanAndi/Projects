@@ -59,7 +59,7 @@ I have gained the confidence and know-how based on the following Mentors:
 
 *Andy Sterkowitz
 *Andrei Nicolae
-\*Irina Cazacu
+
 
 ## Contact
 
